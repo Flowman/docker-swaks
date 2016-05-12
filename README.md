@@ -23,13 +23,3 @@ docker run --rm \
            flowman/swaks \
            -f from@mail.dev -t to@mail.dev -s hostname -p 25
 ```
-
-## Build
-
-For example, if you need to edit the config files, edit the files and than build-it.
-
-```
-git clone git@github.com:Flowman/docker-swaks.git
-cd ./docker-swaks
-docker build --rm -t flowman/swaks .
-```
