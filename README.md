@@ -43,7 +43,7 @@ Just put the following into your `.bash_profile`
 alias swaks='_cmd() { docker run --rm -e TZ="Europe/Berlin" -v "$PWD":/root freinet/swaks "$@";}; _cmd'
 ```
 
-Now you can even use a `.swakrc` in your working directory and pull in attachments from there...
+Now you can even use a `.swaksrc` in your working directory and pull in attachments from there...
 
 ```bash
 swaks -f from@mail.dev -t to@mail.dev -s hostname -p 25 --attach eicar.zip
