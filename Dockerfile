@@ -10,4 +10,5 @@ RUN \
     && chmod +x swaks \
     && mv swaks /usr/bin
 
+WORKDIR /root
 ENTRYPOINT ["/usr/bin/swaks"]
