@@ -2,12 +2,16 @@
 
 # What is SWAKS?
 
- Swaks is a featureful, flexible, scriptable, transaction-oriented SMTP test tool. Features include:
+ [Swaks](https://www.jetmore.org/john/code/swaks/) is a featureful, flexible, scriptable, transaction-oriented SMTP test tool. Features include:
 
  - SMTP extensions including TLS, authentication, pipelining, and XCLIENT
  - Protocols including SMTP, ESMTP, and LMTP
  - Transports including unix-domain sockets, internet-domain sockets (IPv4 and IPv6), and pipes to spawned processes
  - Completely scriptable configuration, with option specification via environment variables, configuration files, and command line
+
+### SWAKS version
+
+ This image uses SWAKS [20181104-0](https://www.jetmore.org/john/blog/2018/11/swaks-release-20181104-0-available/) ([full changelog](http://jetmore.org/john/code/swaks/files/swaks-20181104.0/doc/Changes.txt))
 
 
 ## Info
@@ -16,7 +20,7 @@ This image is based on the popular Alpine Linux project, available in the alpine
 
 ## Usage
 
-Refer to this doc for [command line options](http://www.jetmore.org/john/code/swaks/latest/doc/ref.txt)
+Refer to this doc for [command line options](http://jetmore.org/john/code/swaks/files/swaks-20181104.0/doc/ref.txt)
 
 ### Simple
 
