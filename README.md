@@ -11,7 +11,7 @@
 
 ### SWAKS version
 
- This image uses SWAKS [20181104-0](https://www.jetmore.org/john/blog/2018/11/swaks-release-20181104-0-available/) ([full changelog](http://jetmore.org/john/code/swaks/files/swaks-20181104.0/doc/Changes.txt))
+ This image uses SWAKS [20190914-0](https://www.jetmore.org/john/blog/2019/10/swaks-release-20190914-0-available/) ([full changelog](http://jetmore.org/john/code/swaks/files/swaks-20190914-0/doc/Changes.txt))
 
 
 ## Info
