@@ -2,7 +2,7 @@ FROM alpine:3.12
 
 MAINTAINER Peter Szalatnay <theotherland@gmail.com>
 
-ENV SWAKS_VERSION=20190914-0
+ENV SWAKS_VERSION=20190914.0
 
 RUN set -eux; \
     apk add --update --no-cache \
