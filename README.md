@@ -11,7 +11,7 @@
 
 ### SWAKS version
 
- This image uses SWAKS [20190914-0](https://www.jetmore.org/john/blog/2019/10/swaks-release-20190914-0-available/) ([full changelog](http://jetmore.org/john/code/swaks/files/swaks-20190914-0/doc/Changes.txt))
+ This image uses SWAKS [20201014.0](https://www.jetmore.org/john/blog/2020/10/swaks-release-20201014-0-available/) ([full changelog](https://jetmore.org/john/code/swaks/files/swaks-20201014.0/doc/Changes.txt))
 
 
 ## Info
@@ -20,7 +20,7 @@ This image is based on the popular Alpine Linux project, available in the alpine
 
 ## Usage
 
-Refer to this doc for [command line options](http://jetmore.org/john/code/swaks/files/swaks-20181104.0/doc/ref.txt)
+Refer to this doc for [command line options](https://jetmore.org/john/code/swaks/files/swaks-20201014.0/doc/ref.txt)
 
 ### Simple
 

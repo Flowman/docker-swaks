@@ -2,7 +2,7 @@ FROM alpine:3.12
 
 MAINTAINER Peter Szalatnay <theotherland@gmail.com>
 
-ENV SWAKS_VERSION=20190914-0
+ENV SWAKS_VERSION=20201014.0
 
 RUN set -eux; \
     apk add --update --no-cache \
@@ -11,7 +11,7 @@ RUN set -eux; \
         perl-net-dns \
         curl \
         tzdata; \
-    curl -SLk http://www.jetmore.org/john/code/swaks/files/swaks-$SWAKS_VERSION/swaks -o swaks; \
+    curl -SLk https://www.jetmore.org/john/code/swaks/files/swaks-$SWAKS_VERSION/swaks -o swaks; \
     chmod +x swaks; \
     mv swaks /usr/bin
 
