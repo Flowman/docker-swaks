@@ -14,10 +14,10 @@ RUN set -eux; \
         tzdata; \
     curl -SLk https://www.jetmore.org/john/code/swaks/files/swaks-$SWAKS_VERSION/swaks -o swaks; \
     chmod +x swaks; \
-    yes | perl -MCPAN -e 'install Authen::NTLM' \
-    rm -rf /root/.cpan \
-    apk remove make \
-    mv swaks /usr/bin
+    yes | perl -MCPAN -e 'install Authen::NTLM'; \
+    rm -rf /root/.cpan; \
+    apk del make; \
+    mv /swaks /usr/bin
 
 WORKDIR /root
 
